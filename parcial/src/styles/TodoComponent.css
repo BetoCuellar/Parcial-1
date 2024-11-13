@@ -1,0 +1,73 @@
+.todo-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f9fafb;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .todo-container:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Input y botón de agregar tarea */
+  .todo-container input[type="text"] {
+    padding: 12px;
+    width: calc(100% - 110px);
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .todo-container button {
+    padding: 12px 16px;
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-container button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Lista de tareas */
+  .todo-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .todo-container li {
+    padding: 10px;
+    background-color: #e5e7eb;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-container li button {
+    background-color: #ef4444;
+    border: none;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-container li button:hover {
+    background-color: #dc2626;
+  }
+  
